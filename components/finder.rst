@@ -119,9 +119,9 @@ And it also works with user-defined streams::
 Files or Directories
 ~~~~~~~~~~~~~~~~~~~~
 
-By default, the Finder returns files and directories; but the
+By default, the Finder returns files and directories; though for more granular results you can use the
 :method:`Symfony\\Component\\Finder\\Finder::files` and
-:method:`Symfony\\Component\\Finder\\Finder::directories` methods control that::
+:method:`Symfony\\Component\\Finder\\Finder::directories` methods to control which are returned::
 
     // look for files only; ignore directories
     $finder->files();
